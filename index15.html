@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap%27">
+    <link rel="stylesheet" href="style15.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" id="passwordInput" value=""><i onclick="copied()" class="fa-solid fa-copy"></i>
+        </div>
+        <div class="option">
+            <div class="text">
+                <p>Password Length</p> <input type="number" value="8" id="passwordLength">
+            </div>
+            <div class="text">
+                <p>Including UpperCase </p> <input type="checkbox" id="upper">
+            </div><div class="text">
+                <p>Including LowerCase</p> <input type="checkbox" id="lower">
+            </div><div class="text">
+                <p>Including Number</p> <input type="checkbox" id="num">
+            </div><div class="text">
+                <p>Including Symbols</p> <input type="checkbox" id="sym">
+            </div>
+            <button onclick="myFun()">Generate Password</button>
+        </div>
+    </div>
+    <script src="script15.js"></script>
+</body>
+
+</html>

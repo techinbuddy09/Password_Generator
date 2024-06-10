@@ -1,0 +1,73 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 12, 73);
+
+}
+.container
+{
+    background-color: white;
+    width: 280px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 3%;
+}
+#passwordInput{
+    width: 250px;
+    height: 13px;
+    padding: 11px;
+    border: 2px solid rgb(0, 0, 0);
+    outline:none;
+}
+.input i{
+    position: absolute;
+    margin-left: -29px;
+    margin-top:6px ;
+    font-size:24px ;
+    color: rgb(113, 113, 169);
+}
+.text
+{
+    display: flex;
+    margin-top: -22px;
+}
+.option
+{
+    margin-top: 35px;
+}
+#passwordLength {
+    width: 45px; /* Increased the width to accommodate more digits */
+    height: 25px; /* Increased the height to match the larger width */
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 21px;
+    font-size: 16px; /* Reduced the font size to maintain the overall layout */
+    padding: 2px 4px; /* Added some padding to the input field */
+    box-sizing: border-box; /* Ensures the padding is included in the total width/height */
+}
+.text input[type=checkbox]
+{
+    width: 22px;
+    height: 20px;
+    accent-color:purple;
+    position: absolute;
+    margin-left: 243px;
+    margin-top:25px;
+}
+ .text p { 
+  margin-left:11px;
+  font-size:22px;
+}
+button
+{
+    width:270px;
+    height:35px;
+    background-color:blue;
+    color: white;
+    font-size:22px;
+    border:none;
+    outline:none;
+    margin-top:11px;
+} 
